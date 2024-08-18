@@ -1,0 +1,143 @@
+@media (max-width: 1199.98px) {
+    #responsive-navigation {
+        display: none !important;
+    }
+
+    .project-cart {
+        text-align: center;
+    }
+    
+    .project-cart p {
+        margin-right: 40% !important;
+    }
+    
+}
+
+@media (max-width: 991.98px) {
+    .some-project-cap p {
+        font-size: 19px !important;
+    }
+
+    .flex_content:nth-of-type(1) {
+        display: none;
+    }
+    .lightbox-img {
+        margin-top: 30%;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    #responsive-navigation {
+        display: unset !important;
+    }
+
+    .burger-menu {
+        display: block !important;
+    }
+    
+    .project-cart-img {
+        width: 145px;
+        height: 160px;
+    }
+    
+    .project-cart {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .LC-M {
+        margin-right: 0px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    #Construction {
+        padding: 50px 0;
+    }
+
+    .sweet-description {
+        margin-top: 49px;
+    }
+
+    .sweet-description h1 {
+        font-size: 25px;
+    }
+
+    .sweet-description p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .LC-width {
+        width: calc(100%/2) !important;
+        margin-bottom: 25px;
+    }
+
+    .project-cart-img {
+        width: 200px;
+        height: 160px;
+    }
+    
+    .project-cart {
+        text-align: left;
+    }
+
+    .project-cart:hover {
+        margin: 0 0px 0 0;
+    }
+
+    .margin-r-5 {
+        margin-right: 0 !important;
+    }
+
+    #large-image {
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .glass-box {
+        width: 310px;
+    }
+
+    .flex_content:nth-of-type(1) {
+        display: block;
+    }
+}
+
+@media (max-width: 449.98px) {
+    #Construction {
+        padding: 0;
+    }
+
+    .sweet-description {
+        margin-top: 50px;
+    }
+
+    .sweet-description h1 {
+        font-size: 20px;
+    }
+
+    .sweet-description p {
+        font-size: 15px;
+    }
+    .lightbox-img {
+        margin-top: 60%;
+    }
+}
+
+@media (max-width: 379.98px) {
+    .sweet-description {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 299.98px) {
+    .sweet-description p {
+        width: 200px;
+    }
+}

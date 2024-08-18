@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="shortcut icon" href="../../assets/images/logo.png" type="image/x-icon">
+    <link href="../../assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/font/fontawesome/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center centerDiv p-2">
+        <div class="bg-white d-flex flex-column justify-content-center sizeform rounded">
+            <span class="fs-1 text-center">ورود</span>
+            <form action="" method="post" class="p-4">
+                <div class="mb-4 d-flex flex-column">
+                    <label class="form-label fs-5">ایمیل:</label>
+                    <input class="formInput mb-3" type="email" placeholder="ایمیل خود را وارد کنید؟" id="emailForm">
+                    <span class="messageEmail"></span>
+                </div>
+                <div class="mb-4 d-flex flex-column">
+                    <label class="form-label fs-5">نام کاربری:</label>
+                    <input class="formInput mb-3" type="text" placeholder="نام کاربری خود را وارد کنید؟">
+                </div>
+                <div class="mb-4 d-flex flex-column">
+                    <label class="form-label fs-5">گذرواژه:</label>
+                    <input class="formInput mb-3" type="password" placeholder="گذرواژه خود را وارد کنید؟"
+                        id="passwordForm">
+                    <span class="messagePassword"></span>
+                    <span class="messagePasswords"></span>
+                </div>
+                <div class="mb-4 d-flex flex-column">
+                    <label class="form-label fs-5">تکرار گذرواژه:</label>
+                    <input class="formInput mb-3" type="password" placeholder="گذرواژه خود را تایید کنید؟"
+                        id="passwordForm2">
+                    <span class="messagePassword2"></span>
+                </div>
+                <button type="submit" class="mt-4 btn btn-success w-100">ثبت نام</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../../assets/js/script.js" defer></script>
+</body>
+
+</html>

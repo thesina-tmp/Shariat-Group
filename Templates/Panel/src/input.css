@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    direction: rtl;
+}
+.menu{
+    @apply flex items-center gap-2 px-2 py-3 bg-transparent text-white border-2 border-yellow-400 hover:bg-yellow-400 rounded-md duration-300 ease-in-out
+}
+.form-record{
+    @apply px-3 py-2 rounded-lg w-full outline-none placeholder:text-gray-500 placeholder:focus:text-gray-300 focus:scale-105 duration-500 ease-out focus:shadow-3xl focus:shadow-yellow-300
+}
+.label-record{
+    @apply text-white font-medium after:text-red-500 after:mr-1
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #303335;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f9b500;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #aa7d01;
+}
+
+/* --selection-- */
+::selection {
+    color: #f9b700ac;
+    background: rgba(0, 0, 0, 0.526);
+}
+
+::-moz-selection {
+    color: rgb(249, 181, 0);
+    background: rgba(0, 0, 0, .8);
+    /* Code for Firefox */
+}
