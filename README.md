@@ -10,7 +10,7 @@
 
 ###
 
-<h3 align="left"><a href="www.shariatgroup.ir">🧑‍💻 shariatgroup.ir</a></h3>
+<h3 align="left"><a href="https://shariatgroup.ir">🧑‍💻 shariatgroup.ir</a></h3>
 
 ###
 
